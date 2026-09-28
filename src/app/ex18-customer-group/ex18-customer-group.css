@@ -1,0 +1,24 @@
+.table-group {
+  width: 100%;
+  max-width: 600px;
+  border-collapse: collapse;
+}
+
+.table-group th, .table-group td {
+  border: 1px solid #999;
+  padding: 8px;
+  text-align: left;
+  vertical-align: middle;
+}
+
+.group-header td {
+  font-weight: bold;
+  background-color: #f9f9f9;
+}
+
+.avatar {
+  width: 100px;
+  height: 80px;
+  object-fit: cover;
+  display: block;
+}
