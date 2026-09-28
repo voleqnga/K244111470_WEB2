@@ -10,6 +10,7 @@
 /node_modules
 npm-debug.log
 yarn-error.log
+/K244111470_WEB2/
 
 # IDEs and editors
 .idea/
