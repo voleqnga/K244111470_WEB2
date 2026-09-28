@@ -42,6 +42,11 @@
                 "glob": "**/*",
                 "input": "src/app/ex13/assets",
                 "output": "assets"
+              },
+              {
+                "glob": "**/*",
+                "input": "src/app/ex14/assets",
+                "output": "assets/ex14"
               }
             ],
             "styles": [

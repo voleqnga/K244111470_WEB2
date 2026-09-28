@@ -1,0 +1,49 @@
+.table-wrapper {
+  margin: 20px;
+  max-width: 650px;
+  font-family: Arial, sans-serif;
+}
+
+.main-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 2px;
+  border: 1px solid #666;
+}
+
+.main-table > thead > tr > th,
+.main-table > tbody > tr > td {
+  border: 1px solid #999;
+  padding: 6px;
+  text-align: left;
+}
+
+.sub-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 2px;
+  border: 1px solid #666;
+}
+
+.sub-table th,
+.sub-table td {
+  border: 1px solid #999;
+  padding: 8px;
+  text-align: left;
+}
+
+.nested-cell {
+  padding: 3px !important;
+  background-color: #fff;
+}
+
+/* Căn chỉnh hình ảnh */
+.img-cell {
+  text-align: center;
+}
+
+.img-cell img {
+  width: 40px;
+  height: 50px;
+  object-fit: contain;
+}
