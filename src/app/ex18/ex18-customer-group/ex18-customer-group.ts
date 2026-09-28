@@ -1,6 +1,6 @@
 import { Component, signal } from '@angular/core';
-import { CustomerGroup } from '../ex18/classes/customer';
-import { CustomerHttpService } from '../ex18/service/customer-http-service';
+import { CustomerGroup } from '../classes/customer';
+import { CustomerHttpService } from '../service/customer-http-service';
 
 @Component({
   selector: 'app-ex18-customer-group',
